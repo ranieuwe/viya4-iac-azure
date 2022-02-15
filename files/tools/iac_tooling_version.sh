@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# new line
 
 # We need to return an error if things don't work
 set -e

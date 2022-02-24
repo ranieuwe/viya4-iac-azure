@@ -3,6 +3,11 @@
 # Terraform Registry : https://registry.terraform.io/namespaces/Azure
 # GitHub Repository  : https://github.com/terraform-azurerm-modules
 #
+
+output "hello_world" {
+  value = "Hello, World!"
+}
+
 provider "azurerm" {
 
   subscription_id = var.subscription_id
